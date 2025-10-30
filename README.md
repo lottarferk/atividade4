@@ -1,9 +1,60 @@
-# 🧭 Projeto
+# 🐆 Amigos da Onça
 
-O projeto Amigos da Onça é uma ONG fictícia que visa o apredizado e a construção de um website utilizando as tecnologias html5, css3 e js.
+> **Protegendo o maior felino das Américas para garantir o equilíbrio dos nossos ecossistemas.**
 
 ---
 
+## 🌿 Sobre o Projeto
+
+O **Amigos da Onça** é uma ONG sem fins lucrativos dedicada à **preservação da onça-pintada (_Panthera onca_)** e à **conservação dos biomas brasileiros** onde ela vive — especialmente a Amazônia, o Pantanal e a Mata Atlântica.
+
+Nossa missão é **proteger, educar e inspirar**. Atuamos com pesquisa científica, resgate de animais, restauração de habitats e ações de conscientização junto a comunidades locais.
+
+---
+
+## 🎯 Missão, Visão e Valores
+
+**Missão:**  
+Conservar populações de onça-pintada em vida livre e promover a coexistência entre pessoas e fauna silvestre.
+
+**Visão:**  
+Ser referência nacional na conservação da onça-pintada, integrando ciência, educação e engajamento social.
+
+**Valores:**  
+- 🌎 Sustentabilidade e respeito ao meio ambiente  
+- 💛 Ética e transparência  
+- 👩‍🔬 Ciência e inovação  
+- 🤝 Cooperação e inclusão  
+- 🐾 Amor pelos animais  
+
+---
+
+## 🧩 Áreas de Atuação
+
+- **Pesquisa e Monitoramento:**  
+  Uso de armadilhas fotográficas, rastreamento por GPS e estudos genéticos.
+
+- **Educação Ambiental:**  
+  Oficinas, palestras e campanhas em escolas e comunidades rurais.
+
+- **Resgate e Reabilitação:**  
+  Apoio a órgãos ambientais no resgate e tratamento de onças feridas.
+
+- **Restauração de Habitats:**  
+  Reflorestamento de áreas degradadas e promoção de corredores ecológicos.
+
+- **Engajamento Comunitário:**  
+  Programas de coexistência e geração de renda sustentável.
+
+---
+
+## 🧠 Tecnologias Utilizadas (para o site ou sistema da ONG)
+
+- **Frontend:** HTML5, CSS3, JavaScript (SPA com DOM dinâmico)    
+- **Design:** Acessibilidade WCAG 2.1 AA, responsividade e UI sustentável  
+- **Infraestrutura:** GitFlow + versionamento semântico + deploy automatizado  
+
+---
 ## 📂 Estrutura do Projeto
 
 ```
@@ -61,19 +112,6 @@ O projeto segue o padrão **SemVer**:
 | **MINOR** | 1.1.0 | Novas funcionalidades compatíveis |
 | **PATCH** | 1.0.1 | Correções de bugs |
 
-### 💻 Exemplo de fluxo de release
-```bash
-# iniciar release
-git flow release start v1.0.0
-
-# revisar, testar e atualizar changelog
-git flow release finish v1.0.0
-
-# enviar para repositório remoto
-git push origin main --tags
-```
-
----
 
 ## 👨‍💻 Autor
 **Marcelo Honda**  
