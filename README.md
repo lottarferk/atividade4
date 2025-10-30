@@ -6,7 +6,7 @@
 
 ## 🌿 Sobre o Projeto
 
-O **Amigos da Onça** é uma ONG sem fins lucrativos dedicada à **preservação da onça-pintada (_Panthera onca_)** e à **conservação dos biomas brasileiros** onde ela vive — especialmente a Amazônia, o Pantanal e a Mata Atlântica.
+O **Amigos da Onça** é uma ONG sem fins lucrativos dedicada à **preservação da onça-pintada** e à **conservação dos biomas brasileiros** onde ela vive — especialmente a Amazônia, o Pantanal e a Mata Atlântica.
 
 Nossa missão é **proteger, educar e inspirar**. Atuamos com pesquisa científica, resgate de animais, restauração de habitats e ações de conscientização junto a comunidades locais.
 
