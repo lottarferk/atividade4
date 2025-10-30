@@ -288,3 +288,5 @@ button {
   border: #ffffff;
   margin-top: 8px;
 }
+/* Accessibility: ensure visible focus */
+:focus { outline: 3px solid Highlight; outline-offset: 2px; }

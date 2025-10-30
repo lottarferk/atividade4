@@ -12,20 +12,22 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
     <body>
-        <header>
+<a class="skip-link" href="#main" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;">Pular para o conteúdo</a>
+
+        <header role="banner">
             <!--Cabeçalho com título e navegação-->
             <h1>Amigos da Onça</h1>
             <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
                 menu
             </span>
-            <nav>
+            <nav role="navigation">
                 <a href="index.html">Página Inicial</a>
                 <a href="projetosocial.html">Projeto social</a>
                 <a href="cadastro.html">Cadastro</a>
             </nav>
         </header>
 
-        <main>
+        <main id="main">
             <!--Formulário de Cadastro-->
             <h2 id="cadastro">Faça parte da nossa causa</h2>
 
@@ -83,12 +85,12 @@
                         <option value="TO">Tocantins</option>
                     </select>
                 </fieldset>
-                <input type="submit" value="Cadastrar">
+                <input type="submit" value="Cadastrar" id="input-gen-32946" aria-label="campo de entrada">
             </form>
 
         </main>
 
-        <footer>
+        <footer role="contentinfo">
             <!-- Direitos reservados -->
             <p>&copy; 2025 Amigos da Onça. Todos os direitos reservados.</p>
         </footer>

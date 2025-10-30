@@ -10,3 +10,5 @@
         text-align: center;   
     }
 }
+/* Accessibility: ensure visible focus */
+:focus { outline: 3px solid Highlight; outline-offset: 2px; }

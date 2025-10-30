@@ -12,20 +12,22 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
     <body>
-        <header>
+<a class="skip-link" href="#main" style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;">Pular para o conteúdo</a>
+
+        <header role="banner">
             <!--Cabeçalho com título e navegação-->
             <h1>Amigos da Onça</h1>
             <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
                 menu
             </span>
-            <nav>
+            <nav role="navigation">
                 <a href="index.html">Página Inicial</a>
                 <a href="projetosocial.html">Projeto social</a>
                 <a href="cadastro.html">Cadastro</a>
             </nav>
         </header>
         
-        <main>
+        <main id="main">
             <!--Explicação do projeto social-->
             <section id="projeto-social">
                 <h2>Projeto Social: Defesa da Onça Pintada Brasileira</h2>
@@ -63,7 +65,7 @@
             
         </main>
 
-        <footer>
+        <footer role="contentinfo">
             <!-- Direitos reservados -->
             <p>&copy; 2025 Amigos da Onça. Todos os direitos reservados.</p>
         </footer>

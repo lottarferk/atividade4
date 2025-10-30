@@ -1,6 +1,6 @@
 # 🧭 Projeto Atividade 4
 
-Este projeto implementa um fluxo Git profissional com **GitFlow**, **commits semânticos** e **versionamento semântico (SemVer)**, garantindo um histórico de desenvolvimento limpo, rastreável e automatizável.
+Este projeto implementa um fluxo Git profissional com **GitFlow**, **commits semânticos** e **versionamento semântico**, garantindo um histórico de desenvolvimento limpo, rastreável e automatizável.
 
 ---
 
@@ -172,7 +172,10 @@ git push origin main --tags
 
 ## 👨‍💻 Autor
 **Marcelo Honda**  
-Implementação e estruturação GitFlow + Versionamento Semântico  
+Implementação e estruturação GitFlow + Versionamento Semântico 
+
+Projeto fictício para fins de estudos
+
 📅 *2025-10-30*
 
 ---
