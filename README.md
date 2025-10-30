@@ -119,6 +119,8 @@ Implementação e estruturação GitFlow + Versionamento Semântico
 
 Projeto fictício para fins de estudos
 
+WebSite do projeto : https://lottarferk.github.io/atividade4/
+
 📅 *2025-10-30*
 
 ---
