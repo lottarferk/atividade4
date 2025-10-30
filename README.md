@@ -1,6 +1,6 @@
 # 🧭 Projeto Atividade 4
 
-Este projeto implementa um fluxo Git profissional com **GitFlow**, **commits semânticos** e **versionamento semântico**, garantindo um histórico de desenvolvimento limpo, rastreável e automatizável.
+O projeto Amigos da Onça é uma ONG fictícia que visa o apredizado e a construção de um website utilizando as tecnologias html5, css3 e js.
 
 ---
 
@@ -35,18 +35,6 @@ O fluxo de trabalho segue o modelo **GitFlow**, ideal para projetos com ciclos d
 - **`release/*`** → preparação para novas versões  
 - **`hotfix/*`** → correções emergenciais em produção  
 
-### ⚙️ Configuração
-```bash
-# inicializar o GitFlow
-git flow init
-
-# usar nomes padrão
-# Branch principal: main
-# Branch de desenvolvimento: develop
-```
-
----
-
 ## 🧩 Commits Semânticos (Conventional Commits)
 
 Os commits seguem o padrão **[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)** para manter a clareza e automatizar versões.
@@ -61,16 +49,6 @@ Os commits seguem o padrão **[Conventional Commits](https://www.conventionalcom
 | `test:` | inclusão/ajuste de testes |
 | `chore:` | manutenção e tarefas auxiliares |
 
-### 💡 Exemplos:
-```bash
-feat(index): adicionar seção de apresentação
-feat(cadastro): implementar validação de formulário
-fix(cadastro): corrigir bug no envio sem e-mail
-docs(readme): adicionar instruções de uso
-style(css): padronizar cores e espaçamentos
-```
-
----
 
 ## 🏷️ Versionamento Semântico (SemVer)
 
@@ -94,79 +72,6 @@ git flow release finish v1.0.0
 # enviar para repositório remoto
 git push origin main --tags
 ```
-
----
-
-## 🧾 Changelog
-
-Crie o arquivo `CHANGELOG.md` com o histórico de versões:
-
-```markdown
-# Changelog
-
-## [1.0.0] - 2025-10-30
-### Added
-- Página inicial (`index.html`)
-- Formulário de cadastro
-- Página de projeto social
-
-### Fixed
-- Corrigido layout do formulário em telas pequenas
-```
-
----
-
-## ⚙️ Automação de Commits e Releases
-
-Instale ferramentas para automatizar commits e geração de versões:
-
-```bash
-npm install -g commitizen cz-conventional-changelog standard-version
-```
-
-### 🔧 Uso
-```bash
-cz                     # cria commit semântico interativo
-npx standard-version   # gera nova versão + changelog automaticamente
-```
-
----
-
-## 🧠 Roteiro GitFlow Completo
-
-```bash
-# inicializar repositório
-git init
-git add .
-git commit -m "chore: inicializar projeto"
-
-# configurar GitFlow
-git flow init
-
-# criar branch de desenvolvimento
-git checkout -b develop
-
-# criar feature
-git flow feature start validacao-formulario
-# (editar código)
-git add .
-git commit -m "feat(cadastro): implementar validação de formulário"
-git flow feature finish validacao-formulario
-
-# criar release
-git flow release start v1.0.0
-git add CHANGELOG.md
-git commit -m "docs(changelog): adicionar notas da versão 1.0.0"
-git flow release finish v1.0.0
-git push origin main --tags
-```
-
----
-
-## 🧰 Requisitos Recomendados
-- **Git >= 2.30**
-- **Node.js >= 18**
-- **commitizen** e **standard-version** instalados globalmente
 
 ---
 
