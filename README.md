@@ -1,4 +1,4 @@
-# 🧭 Projeto Atividade 4
+# 🧭 Projeto
 
 O projeto Amigos da Onça é uma ONG fictícia que visa o apredizado e a construção de um website utilizando as tecnologias html5, css3 e js.
 
