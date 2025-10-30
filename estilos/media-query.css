@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    header nav {
+        display: block;
+    }
+
+    span#burguer {
+        display: none;
+        text-align: center;   
+    }
+}

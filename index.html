@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigos da Onça</title>
+    <!-- Ícone da página -->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <!--Junta o HTML com CSS-->
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+    <body onresize="mudouTamanho()">
+        <header>
+            <!--Cabeçalho com título e navegação-->
+            <h1>Amigos da Onça</h1>
+            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+                menu
+            </span>
+            <nav>
+                <a href="index.html">Página Inicial</a>
+                <a href="projetosocial.html">Projeto social</a>
+                <a href="cadastro.html">Cadastro</a>
+            </nav>
+        </header>
+        
+        <main>
+            <!-- Banner principal -->
+            <div id="banner"></div>
+            <section>
+                <!-- Seção sobre a organização -->
+                <div id="sobre">
+                    <h2>Sobre Nós</h2>
+                    <p>A organização "Amigos da Onça" é dedicada à conservação da onça-pintada e à promoção da conscientização ambiental. Fundada em 2005, nossa missão é proteger esta espécie icônica e seu habitat, promovendo a coexistência harmoniosa entre humanos e vida selvagem.</p>
+                </div>
+            </section>
+            <section id="valores">
+                <!-- Imagens da espécie em perigo -->
+                <h2>Ajude uma Onça</h2>
+
+                <div class="container">
+                    <div class="item">
+                        <a href="projetosocial.html">
+                            <img src="imagens/onça-deitada-600.webp" alt="Imagem de uma onça-pintada deitada">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="projetosocial.html">
+                            <img src="imagens/filhote-600.webp" alt="Imagem de uma onça-pintada filhote">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="projetosocial.html">
+                            <img src="imagens/onça-full.webp" alt="Imagem de uma onça-pintada triste">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="contato">
+                <!-- Formas de contato -->
+                <h2>Contato</h2>
+                <p>&#128222;<strong>Telefone:</strong> (21) 9 9999-2222</p>
+                <p>&#128231;<strong>E-mail:</strong> amigos@daonca.org</p>
+            </section>
+        </main>
+        
+        <footer>
+            <!-- Direitos reservados -->
+            <p>&copy; 2025 Amigos da Onça. Todos os direitos reservados.</p>
+        </footer>
+
+        <!-- Linka o script js -->
+        <script src="js/script.js"></script>
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
