@@ -122,6 +122,3 @@ Projeto fictício para fins de estudos
 📅 *2025-10-30*
 
 ---
-
-## 📄 Licença
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` (se aplicável) para mais detalhes.
